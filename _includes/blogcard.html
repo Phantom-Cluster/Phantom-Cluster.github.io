@@ -1,0 +1,29 @@
+<style>
+    ul {
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+    }
+</style>
+
+<ul>
+    {% for post in site.posts %}
+    <li>
+        <div class="card" style="padding: 0.5rem;">
+            <center>
+                <a style="color:black;" href="{{post.url}}">
+                    <div class="card-img">
+                        <img style="height: 15vmax;" src="{{post.image}}" alt="{{post.title}}">
+                    </div>
+                    <div class="card-title" style="font-size: 1.5rem; margin: 0.05rem;">
+                        <b>{{ post.title }}</b>
+                    </div>
+                </a>
+            </center>
+            <div class="card-text" style="text-align: justify;">
+                {{post.content | truncate: 500 | strip_html | strip_newlines }}
+            </div>
+        </div>
+    </li>
+    {% endfor %}
+</ul>

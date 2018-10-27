@@ -1,0 +1,25 @@
+markdown: kramdown
+
+exclude:
+  - Gemfile
+
+title: Phantom Cluster
+
+author: Hitanshu Sahu
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: 'posts'
+    values:
+      image: ""
+      author: ""
+      layout: Post
+  -
+    scope:
+      path: ""
+      type: 'pages'
+    values:
+      image: ""
+      layout: Page
