@@ -1,29 +1,37 @@
-<style>
-    ul {
-        list-style-type: none;
-        padding: 0px;
-        margin: 0px;
-    }
-</style>
-
-<ul>
-    {% for post in site.posts %}
-    <li>
-        <div class="card" style="padding: 0.5rem;">
-            <center>
-                <a style="color:black;" href="{{post.url}}">
-                    <div class="card-img">
-                        <img style="height: 15vmax;" src="{{post.image}}" alt="{{post.title}}">
+   
+        <div class="wrapper">
+                <div class="page-header page-header-small">
+                    <div class="page-header-image" data-parallax="true" style="background-image: url('{{site.url}}{{site.baseurl}}/assets/img/photo/p18.jpg'); ">
                     </div>
-                    <div class="card-title" style="font-size: 1.5rem; margin: 0.05rem;">
-                        <b>{{ post.title }}</b>
+                    <div class="container">
+                        <div class="content-center">
+                            <h1 class="title">Phantom Cluster's <br> 📋 Blog ✍️</h1>
+                        </div>
                     </div>
-                </a>
-            </center>
-            <div class="card-text" style="text-align: justify;">
-                {{post.content | truncate: 500 | strip_html | strip_newlines }}
-            </div>
+                </div>
+                <div class="section section-about-us">
+                    <div class="container">
+                            <div class="row">
+                                    {% for post in site.posts %}
+                                <div class="col-md-4 col-sm-6 col-xs-6">
+                                    <div class="card">
+                                    <img class="card-img-top" src="{{post.image}}" alt="Card image">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="{{post.url}}"><b><i>{{ post.title }}</i></b></a></h5>
+                                        <p class="card-text">{{post.content | truncate: 250 | strip_html | strip_newlines }}</p>
+                                        <a href="{{post.url}}" class="btn btn-info">Read More</a>
+                                    </div>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                               </div>
+                    </div>
+                </div>
         </div>
-    </li>
-    {% endfor %}
-</ul>
+    
+    
+    
+    
+    
+         
+   
