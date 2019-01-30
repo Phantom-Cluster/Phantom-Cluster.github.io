@@ -6,6 +6,13 @@
 /* How to use? : Check the GitHub README
 /* v2.0.0
 /* ----------------------------------------------- */
+
+
+var error = 'no error buddy';
+var help = ' toggle have easter';
+var author = 'Howdy, My name is Hitanshu, How are you doing ?';
+var easter = 'go to Photography page and Search SECRET, Bye bye Good luck';
+
 var instance = new TypeIt('#name', {
   speed: 50,
   autoStart: false
