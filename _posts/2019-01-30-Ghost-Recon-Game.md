@@ -1,6 +1,6 @@
 ---
 title: Ghost Recon Wildlands
-image: http://localhost:4000/assets/img/Ghost-recon-wl.jpg
+image: http://localhost:4000/GRWL.jpg
 author: Phantom Cluster
 layout: Post
 ---
