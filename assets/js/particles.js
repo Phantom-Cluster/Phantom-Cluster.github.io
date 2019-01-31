@@ -8,14 +8,14 @@
 /* ----------------------------------------------- */
 
 
-var error = '🙅‍♂️  no error buddy';
+var error = '🙅‍♂️  no error buddy 🥚 ';
 var help = ' toggle have easter';
-var author = 'Howdy, My name is Hitanshu, How are you doing ?';
+var author = 'Howdy, My name is Hitanshu, How are you doing ? 🥚 ';
 var easter = 'go to Photography 📷 page and Search SECRET, Bye bye Good luck 👋';
-var hello = 'Hi, There Nice to see you on my site. 😊'
+var hello = 'Hi, There Nice to see you on my site😊. 🥚 ';
 var egg = "did u mean Easter-🥚 ?";
-var drink = "I love Coffee ☕, <-- Congrats You found first easter Egg.";
-var coffee = "You just Triggered me ☕. ";
+var drink = "I love Coffee ☕. 🥚";
+var coffee = "You just Triggered me ☕. 🥚  ";
  
 
 var instance = new TypeIt('#name', {
