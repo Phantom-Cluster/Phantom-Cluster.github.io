@@ -16,6 +16,8 @@ var hello = 'Hi, Nice to see you on my site😊. 🥚 ';
 var egg = "did u mean Easter-🥚 ?";
 var drink = "I love Coffee ☕. 🥚";
 var coffee = "You just Triggered me ☕. 🥚  ";
+var wallpaper = 'https://wallpaper30.github.io/' ;
+var name = 'Hitanshu Sahu';
  
 
 var instance = new TypeIt('#name', {
