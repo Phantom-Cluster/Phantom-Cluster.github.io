@@ -15,6 +15,7 @@ var easter = 'go to Photography 📷 page and Search SECRET, Bye bye Good luck �
 var hello = 'Hi, There Nice to see you on my site. 😊'
 var egg = "did u mean Easter-🥚 ?";
 var drink = "I love Coffee ☕, <-- Congrats You found first easter Egg.";
+var coffee = "You just Triggered me ☕. ";
  
 
 var instance = new TypeIt('#name', {
