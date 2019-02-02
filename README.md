@@ -12,7 +12,7 @@ Contributor of this Repo 👨‍💻
 - [Harsh Trivedi](https://github.com/harsh98trivedi)
 
 
-# Changlog 📝
+# Changelog 📝
 
 ### Version 1.1
 
