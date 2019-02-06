@@ -8,6 +8,7 @@
 /* ----------------------------------------------- */
 
 
+
 var error = '🙅‍♂️  no error buddy 🥚 ';
 var help = ' toggle have easter';
 var author = 'Howdy, My name is Hitanshu. 🥚 ';
@@ -18,7 +19,7 @@ var drink = "I love Coffee ☕. 🥚";
 var coffee = "You just Triggered me ☕. 🥚  ";
 var wallpaper = 'https://wallpaper30.github.io/' ;
 var name = 'Hitanshu Sahu';
- 
+var birthday = "Cancer Zodiac Sign + if u add both digit of my birth date it's Even number, Enough hint 😊. "
 
 var instance = new TypeIt('#name', {
   speed: 50,
