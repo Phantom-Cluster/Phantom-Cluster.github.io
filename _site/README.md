@@ -14,6 +14,11 @@ Contributor of this Repo 👨‍💻
 
 # Changelog 📝
 
+### Version 1.2
+- My Top-Pick Spotify Playlist added.
+- Added follow me button
+- Notification bar convert into changelog.
+
 ### Version 1.1
 
 - Converted site into Jekyll Pages.
