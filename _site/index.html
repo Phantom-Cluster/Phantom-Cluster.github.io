@@ -27,13 +27,6 @@
 </style>
 
 </head>
-<script>
-        $("#songembed").click(function() {
-            $('html, body').animate({
-                scrollTop: $("#spotifyMusic").offset().top
-            }, 2000);
-        });
-</script>
 <body class="profile-page sidebar-collapse">
 
     <!-- Navbar -->
@@ -229,7 +222,7 @@
                
 
                 <!--contact form started-->
-               <div class="row" id="spotifyMusic">
+               <div class="row">
                 <div class=" col-md-6" >
                     <h3 class="title" > What else i do ?</h3>
                     <h5 class="description" style="text-align:justify;"> I am learning and implementing things, also worked as WordPress Web-Developer
@@ -256,7 +249,7 @@
                         <!--spotify follow end-->
                     </div>
                 </div>
-                <div class=" col-md-6 col-xs-12" style="text-align: center;" >
+                <div class=" col-md-6 col-xs-12" style="text-align: center;" id="spotifyMusic" >
                         <h3 class="title"  > What do I listen on <span style="color:#2EBD59"><b>Spotify</b></span> </h3>
                          <iframe src="https://open.spotify.com/embed/user/phantom.7/playlist/5RKpPWCYTECZY4Qo3Llvre"style="border-radius:10px;background-color: #05BB4F;" width="90%" height="90%" frameborder="0" allowtransparency="true" allow="encrypted-media"  ></iframe>
                 </div>
